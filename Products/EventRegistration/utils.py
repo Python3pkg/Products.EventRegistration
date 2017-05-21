@@ -32,7 +32,7 @@
 from Products.EventRegistration import config
 from Products.CMFCore.utils import getToolByName
 from Products.Archetypes.public import DisplayList
-from StringIO import StringIO
+from io import StringIO
 
 def getValues(portal, prop_name):
     ptool = getToolByName(portal, 'portal_properties', None)
